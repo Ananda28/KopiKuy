@@ -135,7 +135,14 @@ section {
 }
 
 .shop {
-   margin-right: 100px;
+   margin-right: 30px;
+   background-color: rgb(69, 190, 197);
+   color: #fff;
+   padding-top: 5px;
+   padding-right: 15px;
+   padding-bottom: 5px;
+   padding-left: 15px;
+   border-radius: 10px;
 }
 
 .chat {
@@ -391,7 +398,11 @@ terkait layout pada CSS untuk dapat memahami secara penuh
    align-items: stretch;
 }
 
-.col-review {
+.checked {
+   color: orange;
+ }
+
+ .col-review {
    width: 30%;
    padding: 50px 50px;
    box-shadow: 0px 0px 12px -10px #000;
